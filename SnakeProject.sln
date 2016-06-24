@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeProject", "TestViews\SnakeProject.csproj", "{466A6EAF-CF8B-4B37-BA9F-07CD6D79C06F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeProject", "SnakeProject\SnakeProject.csproj", "{466A6EAF-CF8B-4B37-BA9F-07CD6D79C06F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

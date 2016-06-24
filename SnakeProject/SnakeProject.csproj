@@ -113,7 +113,6 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="TestViews_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\apple.png" />
@@ -130,15 +129,43 @@
     <Content Include="Assets\game_over2.png" />
     <Content Include="Assets\head.png" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
+    <Content Include="Assets\logo1200x600.png" />
+    <Content Include="Assets\logo1240x1240.png" />
+    <Content Include="Assets\logo1240x1240.scale-100.png" />
+    <Content Include="Assets\logo1240x1240.scale-125.png" />
+    <Content Include="Assets\logo1240x1240.scale-150.png" />
+    <Content Include="Assets\logo1240x1240.scale-200.png" />
+    <Content Include="Assets\logo1240x1240.scale-400.png" />
+    <Content Include="Assets\logo310x150.png" />
+    <Content Include="Assets\logo310x310.png" />
+    <Content Include="Assets\logo388x188.png" />
+    <Content Include="Assets\logo388x388.png" />
+    <Content Include="Assets\logo465x225.png" />
+    <Content Include="Assets\logo465x465.png" />
+    <Content Include="Assets\logo620x300.png" />
+    <Content Include="Assets\logo620x620.png" />
     <Content Include="Assets\skin.jpg" />
     <Content Include="Assets\skin.png" />
     <Content Include="Assets\Snake2.jpg" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-100.png" />
+    <Content Include="Assets\Square150x150Logo.scale-125.png" />
+    <Content Include="Assets\Square150x150Logo.scale-150.png" />
     <Content Include="Assets\Square150x150Logo.scale-200.png" />
+    <Content Include="Assets\Square150x150Logo.scale-400.png" />
     <Content Include="Assets\Square44x44Logo.scale-200.png" />
     <Content Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="Assets\StoreLogo.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+    <Content Include="Assets\StoreLogo.scale-125.png" />
+    <Content Include="Assets\StoreLogo.scale-150.png" />
+    <Content Include="Assets\StoreLogo.scale-200.png" />
+    <Content Include="Assets\StoreLogo.scale-400.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-125.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-150.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="Properties\Default.rd.xml" />
   </ItemGroup>
   <ItemGroup>

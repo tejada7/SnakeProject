@@ -27,7 +27,7 @@ namespace TestViews
         /// executed, and as such is the logical equivalent of main() or WinMain().
         /// </summary>
         public App()
-        {
+        {            
             this.InitializeComponent();
             this.Suspending += OnSuspending;
         }

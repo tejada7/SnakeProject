@@ -3,7 +3,7 @@
   <Identity Name="f4cdcd13-a128-4dfb-8611-11fc4761b9c1" Publisher="CN=Favio" Version="1.0.0.0" />
   <mp:PhoneIdentity PhoneProductId="f4cdcd13-a128-4dfb-8611-11fc4761b9c1" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>TestViews</DisplayName>
+    <DisplayName>SnakeProject</DisplayName>
     <PublisherDisplayName>Favio</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -16,7 +16,10 @@
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="SnakeProject.App">
       <uap:VisualElements DisplayName="SnakeProject" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="SnakeProject" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\logo1240x1240.png">
+          <uap:ShowNameOnTiles>
+            <uap:ShowOn Tile="square310x310Logo" />
+          </uap:ShowNameOnTiles>
         </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
       </uap:VisualElements>

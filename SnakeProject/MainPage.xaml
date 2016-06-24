@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="TestViews.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TestViews"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="797" Width="475" HorizontalAlignment="Center" VerticalAlignment="Top" VerticalContentAlignment="Top" UseLayoutRounding="True" Foreground="#FFF7E697">
+    <Page.Background>
+        <SolidColorBrush Color="#FFF7E697" Opacity="0.699999988079071"/>
+    </Page.Background>
+
+    <Grid Margin="10,100,10,0" Height="466" VerticalAlignment="Top" Opacity="0.99" >
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="Assets/logo620x620.png"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="445"/>
+        </Grid.ColumnDefinitions>
+        <RadioButton x:Name="radioButtonEasy" Content="Easy" HorizontalAlignment="Left" Margin="161,123,0,0" VerticalAlignment="Top" GroupName="radioGroupLevel" Background="{x:Null}" FontSize="36" FontFamily="Consolas" FontWeight="Bold"/>
+        <RadioButton x:Name="radioButtonMedium" Content="Medium" HorizontalAlignment="Left" Margin="161,170,0,0" VerticalAlignment="Top" GroupName="radioGroupLevel" IsChecked="True" FontFamily="Consolas" FontSize="36" FontWeight="Bold"/>
+        <RadioButton x:Name="radioButtonHard" Content="Hard" HorizontalAlignment="Stretch" Margin="161,217,123,0" VerticalAlignment="Top" GroupName="radioGroupLevel" FontFamily="Consolas" FontSize="36" FontWeight="Bold"/>
+        <Button x:Name="buttonPlay" Content="Play" HorizontalAlignment="Left" Margin="161,313,0,61" VerticalAlignment="Stretch" Click="buttonPlay_Click" FontFamily="Consolas" FontSize="36" Width="147" Background="#CEE02F08"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="11,43,0,0" TextWrapping="Wrap" Text="Select the level " VerticalAlignment="Top" FontSize="48" FontFamily="Consolas" Foreground="#FF0A0909" Width="424" FontWeight="Bold"/>
+
+    </Grid>
+</Page>

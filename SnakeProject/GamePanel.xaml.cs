@@ -5,6 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.UI.ViewManagement;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -26,6 +27,10 @@ namespace TestViews
         {
             // set settings to default
             new Settings();
+
+            // set the size of the page
+            ApplicationView.PreferredLaunchViewSize = new Size(825, 800);
+            ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.PreferredLaunchViewSize;
 
             // set game speed and start timer
             timer.Interval = TimeSpan.FromMilliseconds(Settings.Speed);
